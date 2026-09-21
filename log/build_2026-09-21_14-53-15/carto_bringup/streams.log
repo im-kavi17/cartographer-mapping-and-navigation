@@ -1,0 +1,43 @@
+[0.442s] Invoking command in '/home/ubuntu/carto_ws/src/carto_bringup': PYTHONPATH=/home/ubuntu/carto_ws/build/carto_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carto_bringup build --build-base /home/ubuntu/carto_ws/build/carto_bringup/build install --record /home/ubuntu/carto_ws/build/carto_bringup/install.log --install-scripts $base/lib/carto --single-version-externally-managed install_data
+[0.602s] running egg_info
+[0.602s] creating ../../build/carto_bringup/carto_bringup.egg-info
+[0.602s] writing ../../build/carto_bringup/carto_bringup.egg-info/PKG-INFO
+[0.603s] writing dependency_links to ../../build/carto_bringup/carto_bringup.egg-info/dependency_links.txt
+[0.603s] writing entry points to ../../build/carto_bringup/carto_bringup.egg-info/entry_points.txt
+[0.603s] writing requirements to ../../build/carto_bringup/carto_bringup.egg-info/requires.txt
+[0.603s] writing top-level names to ../../build/carto_bringup/carto_bringup.egg-info/top_level.txt
+[0.603s] writing manifest file '../../build/carto_bringup/carto_bringup.egg-info/SOURCES.txt'
+[0.604s] reading manifest file '../../build/carto_bringup/carto_bringup.egg-info/SOURCES.txt'
+[0.605s] writing manifest file '../../build/carto_bringup/carto_bringup.egg-info/SOURCES.txt'
+[0.605s] running build
+[0.605s] running build_py
+[0.605s] creating /home/ubuntu/carto_ws/build/carto_bringup/build
+[0.605s] creating /home/ubuntu/carto_ws/build/carto_bringup/build/lib
+[0.605s] creating /home/ubuntu/carto_ws/build/carto_bringup/build/lib/carto_bringup
+[0.605s] copying carto_bringup/__init__.py -> /home/ubuntu/carto_ws/build/carto_bringup/build/lib/carto_bringup
+[0.606s] running install
+[0.606s] running install_lib
+[0.607s] creating /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup
+[0.607s] copying /home/ubuntu/carto_ws/build/carto_bringup/build/lib/carto_bringup/__init__.py -> /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup
+[0.607s] byte-compiling /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup/__init__.py to __init__.cpython-310.pyc
+[0.607s] running install_data
+[0.607s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index
+[0.607s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index/resource_index
+[0.607s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index/resource_index/packages
+[0.607s] copying resource/carto_bringup -> /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index/resource_index/packages
+[0.608s] copying package.xml -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup
+[0.608s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+[0.608s] copying launch/cartographer.launch.py -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+[0.608s] copying launch/robot_description.launch.py -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+[0.608s] copying launch/navigation.launch.py -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+[0.608s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/config
+[0.608s] copying config/cartographer.lua -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/config
+[0.608s] copying config/nav2_params.yaml -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/config
+[0.608s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/urdf
+[0.608s] copying urdf/rover.urdf -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/urdf
+[0.608s] creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/rviz
+[0.608s] running install_egg_info
+[0.609s] Copying ../../build/carto_bringup/carto_bringup.egg-info to /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup-0.0.1-py3.10.egg-info
+[0.610s] running install_scripts
+[0.624s] writing list of installed files to '/home/ubuntu/carto_ws/build/carto_bringup/install.log'
+[0.649s] Invoked command in '/home/ubuntu/carto_ws/src/carto_bringup' returned '0': PYTHONPATH=/home/ubuntu/carto_ws/build/carto_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carto_bringup build --build-base /home/ubuntu/carto_ws/build/carto_bringup/build install --record /home/ubuntu/carto_ws/build/carto_bringup/install.log --install-scripts $base/lib/carto --single-version-externally-managed install_data

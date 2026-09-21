@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<package format="3">
+
+  <name>carto_bringup</name>
+
+  <version>0.0.1</version>
+
+  <description>
+    Cartographer 2D SLAM for RPLIDAR A1
+  </description>
+
+  <maintainer email="ubuntu@todo.todo">
+    ubuntu
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+
+  <buildtool_depend>
+    ament_python
+  </buildtool_depend>
+
+
+  <exec_depend>
+    rplidar_ros
+  </exec_depend>
+
+  <exec_depend>
+    cartographer_ros
+  </exec_depend>
+
+  <exec_depend>
+    robot_state_publisher
+  </exec_depend>
+
+  <exec_depend>
+    tf2_ros
+  </exec_depend>
+
+  <exec_depend>
+    rviz2
+  </exec_depend>
+
+
+  <export>
+
+    <build_type>
+      ament_python
+    </build_type>
+
+  </export>
+
+</package>

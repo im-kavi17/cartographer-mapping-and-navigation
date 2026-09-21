@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/carto_bringup/carto_bringup.egg-info
+writing ../../build/carto_bringup/carto_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/carto_bringup/carto_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/carto_bringup/carto_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/carto_bringup/carto_bringup.egg-info/requires.txt
+writing top-level names to ../../build/carto_bringup/carto_bringup.egg-info/top_level.txt
+writing manifest file '../../build/carto_bringup/carto_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/carto_bringup/carto_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/carto_bringup/carto_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/carto_ws/build/carto_bringup/build
+creating /home/ubuntu/carto_ws/build/carto_bringup/build/lib
+creating /home/ubuntu/carto_ws/build/carto_bringup/build/lib/carto_bringup
+copying carto_bringup/__init__.py -> /home/ubuntu/carto_ws/build/carto_bringup/build/lib/carto_bringup
+running install
+running install_lib
+creating /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup
+copying /home/ubuntu/carto_ws/build/carto_bringup/build/lib/carto_bringup/__init__.py -> /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup
+byte-compiling /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index/resource_index
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index/resource_index/packages
+copying resource/carto_bringup -> /home/ubuntu/carto_ws/install/carto_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+copying launch/cartographer.launch.py -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+copying launch/robot_description.launch.py -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+copying launch/navigation.launch.py -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/launch
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/config
+copying config/cartographer.lua -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/config
+copying config/nav2_params.yaml -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/config
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/urdf
+copying urdf/rover.urdf -> /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/urdf
+creating /home/ubuntu/carto_ws/install/carto_bringup/share/carto_bringup/rviz
+running install_egg_info
+Copying ../../build/carto_bringup/carto_bringup.egg-info to /home/ubuntu/carto_ws/install/carto_bringup/lib/python3.10/site-packages/carto_bringup-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/carto_ws/build/carto_bringup/install.log'
